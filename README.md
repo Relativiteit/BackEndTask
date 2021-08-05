@@ -6,4 +6,4 @@ learning how to set-up a backend in JAVA frontend is already built in react
 
 ``` TaskServiceAPI``` State the requirements for the contract 
 
-``` TaskService ``` contains the logic to fullfill the contract stated by the 
+``` TaskService ``` contains the logic to fulfill the contract stated by the 

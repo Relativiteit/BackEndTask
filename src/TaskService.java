@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TaskService implements TaskServiceApi{
+    // make a list of all the tasks and put them in a list
     List<Task> allTasks = new ArrayList<>();
 
     @Override
@@ -18,11 +19,13 @@ public class TaskService implements TaskServiceApi{
 
     @Override
     public Task getTask(int taskId) {
+
         return null;//user Java streams and filter
     }
 
     @Override
     public Task getTask(String name) {
+
         return null; //user Java streams and filter
     }
 
@@ -33,12 +36,13 @@ public class TaskService implements TaskServiceApi{
 
     @Override
     public List<Task> findTasks(boolean done) {
+
         return null;//user Java streams and filter
     }
 
     @Override
     public void removeTask(int taskId) {
-            //read collections operions;
+            //read collections operations;
     }
 
     @Override
@@ -48,6 +52,7 @@ public class TaskService implements TaskServiceApi{
 
     @Override
     public List<Task> getAll() {
+
         return null;//use stream, sorting
     }
 }

@@ -1,7 +1,7 @@
 import java.util.List;
 
 public interface TaskServiceApi {
-    Task addTask(String name); //create new task , with new id and add to teh list
+    Task addTask(String name); //create new task , with new id and add to the list
     Task getTask(int taskId);
     Task getTask(String name);
     Task find(String name, boolean done);//search on both condition
