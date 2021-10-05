@@ -8,13 +8,12 @@ public class TaskService implements TaskServiceApi{
     @Override
     public Task addTask(String name) {
         //create object
-//        Task task = new Task();
-//        int id = 0;
-//        task.setId(id);
-//        task.setName(name);
-//        allTasks.add(task);
-//        return task;
-        return null;
+        Task task = new Task();
+        int id = 0;
+        task.setId(id);
+        task.setName(name);
+        allTasks.add(task);
+        return task;
     }
 
     @Override
@@ -23,14 +22,13 @@ public class TaskService implements TaskServiceApi{
         return null;//user Java streams and filter
     }
 
-    @Override
-    public Task getTask(String name) {
-
-        return null; //user Java streams and filter
+    public Task getTask(String name){
+        return null;// use Java streams and filter
     }
 
     @Override
     public Task find(String name, boolean done) {
+
         return null; //user Java streams and filter
     }
 
